@@ -7,6 +7,8 @@
 *
 * Return: nothing
 */
+void addnode(stack_t **head, int i);
+void addqueue(stack_t **head, int i);
 void f_push(stack_t **head, unsigned int counter)
 {
 	int i, m = 0, flag = 0;
